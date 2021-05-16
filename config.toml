@@ -75,6 +75,7 @@ logo_width = "150px"
 description = "Mi portafolio Kmilo Collado"
 author = "kmilo"
 whatsapp_num = "+5352391362"
+cv = "docs/CV.pdf"
 
 # Preloader
 [params.preloader]

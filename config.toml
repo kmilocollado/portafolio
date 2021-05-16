@@ -1,94 +1,193 @@
-baseurl = "https://pages.gitlab.io/hugo/"
-contentdir    = "content"
-layoutdir     = "layouts"
-publishdir    = "public"
-title = "Beautiful Hugo"
-canonifyurls  = true
+######################## default configuration ####################
+baseURL = "https://kmilocollado.com"
+title = "Kmilo Collado"
+defaultContentLanguage = "es"
+languageCode = "es"
+theme = "somrat"
+# post pagination
+paginate = "5"
+# post excerpt
+summaryLength = "10"
 
-DefaultContentLanguage = "en"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsUseClasses = true
-pygmentCodeFences = true
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
-
-[Params]
-  subtitle = "Hugo Blog Template for GitLab Pages"
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
-
-[Author]
-  name = "Some Person"
-  email = "youremail@domain.com"
-  facebook = "username"
-  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  gitlab = "username"
-  github = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  keybase = "username"
+# disable language
+disableLanguages = [] # disable language from here
+# google analutics
+googleAnalytics = "" # example : UA-123-45
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
 
 
-[[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
 
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
+############################# Outputs ##############################
+[outputs]
+home = ["HTML"]
 
-[[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
+[markup.goldmark.renderer]
+unsafe= true
 
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
+############################# Plugins ##############################
 
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+[[params.plugins.css]]
+link = "plugins/hover/hover.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/owl-carousel/owl.carousel.min.css"
+[[params.plugins.css]]
+link = "plugins/owl-carousel/owl.theme.default.min.css"
+[[params.plugins.css]]
+link = "plugins/text-animation/text-animation.css"
 
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/wow.min.js"
+[[params.plugins.js]]
+link = "plugins/text-animation/text-animation.js"
+[[params.plugins.js]]
+link = "plugins/jquery.waypoints.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/owl-carousel/owl.carousel.min.js"
 
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+
+#################### default parameters ################################
+[params]
+favicon = "images/favicon.png"
+logo_light = "images/logo-light.png"
+logo_dark = "images/logo-dark.png"
+logo_width = "150px"
+# Meta data
+description = "This is meta description"
+author = "kmilo"
+whatsapp_num = "+5352391362"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+  
+############################# social site ########################
+[[params.social]]
+icon = "fab fa-facebook-f"
+link = "https://www.facebook.com/kmilocollado"
+
+[[params.social]]
+icon = "fab fa-twitter"
+link = "https://twitter.com/Kmilo_Collado"
+
+[[params.social]]
+icon = "fab fa-instagram"
+link = "https://www.instagram.com/kmilocollado"
+
+[[params.social]]
+icon = "fab fa-whatsapp"
+link = "https://wa.me/+5352391362"
+
+[[params.social]]
+icon = "fab fa-telegram"
+link = "https://t.me/kmilo_collado"
+
+################################### Español language #####################################
+[Languages.es]
+languageName = "Es"
+languageCode = "es-esp"
+contentDir = "content/español"
+weight = 2
+home = "Inicio"
+# copyright
+copyright = "Copyright &copy; 2020 Kmilo Collado"
+
+
+################# español navigation ##################
+
+# main menu
+[[Languages.es.menu.main]]
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[Languages.es.menu.main]]
+name = "Acerca de"
+pre = "#"
+url = "acerca-de"
+weight = 2
+
+[[Languages.es.menu.main]]
+name = "Servicios"
+pre = "#"
+url = "service"
+weight = 3
+
+[[Languages.es.menu.main]]
+name = "Portafolio"
+pre = "#"
+url = "portfolio"
+weight = 4
+
+
+[[Languages.es.menu.main]]
+name = "Contacto"
+pre = "#"
+url = "contact"
+weight = 5
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2020 Kmilo Collado"
+
+
+################# english navigation ##################
+
+# main menu
+[[Languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "About me"
+pre = "#"
+url = "about"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Service"
+pre = "#"
+url = "service"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Portfolio"
+pre = "#"
+url = "portfolio"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "Contact"
+pre = "#"
+url = "contact"
+weight = 5
+
+
+

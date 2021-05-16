@@ -1,6 +1,8 @@
 ---
 title: "Estudio Raro"
 date: 2018-05-17T12:14:34+06:00
+fecha: "Fecha"
+empresa: "Empresa"
 image: "images/portfolio/estudioraro.png"
 categories: ["Online Cuba"]
 description: "Esta es mi descrpción"

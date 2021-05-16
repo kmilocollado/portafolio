@@ -1,6 +1,7 @@
 ---
 title: "Portafolio"
 description: "This is meta description."
+all: "Todos"
 draft: false
 
 

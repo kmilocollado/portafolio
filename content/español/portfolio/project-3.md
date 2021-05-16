@@ -1,6 +1,8 @@
 ---
 title: "Divulgata"
 date: 2019-01-15T12:14:34+06:00
+fecha: "Fecha"
+empresa: "Empresa"
 image: "images/portfolio/divulgata.png"
 categories: ["Online Cuba"]
 description: "This is meta description."

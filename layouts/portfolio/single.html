@@ -19,14 +19,14 @@
             <li class="media mb-4">
               <i class="mt-1 fas fa-calendar h2"></i>
                <div class="ml-3">
-                 <h4>Fecha</h4>
+                 <h4> {{ .Params.fecha }} </h4>
                  <div class="content">{{.PublishDate.Format "02 Jan, 2006"}}</div>
                </div>
              </li>
              <li class="media mb-4">
                <i class="mt-1 fas fa-folder h2"></i>
                 <div class="ml-3">
-                  <h4>Empresa</h4>
+                  <h4> {{.Params.empresa}} </h4>
                   <div class="content">{{range $i,$e:= .Params.categories }}{{if ne $i 0}},{{end}} {{.|title}}{{end}}</div>
                 </div>
               </li>

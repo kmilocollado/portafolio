@@ -1,6 +1,8 @@
 ---
 title: "Pedro Oraá"
 date: 2018-07-12T12:14:34+06:00
+fecha: "Date"
+empresa: "Business"
 image: "images/portfolio/pedro-oraa.png"
 categories: ["Online Cuba"]
 description: "This is meta description."

@@ -306,7 +306,7 @@
         <div class="filtering wow fadeInUp" data-wow-duration="1.5s">
           <div class="btn-group btn-group-toggle portfolio-navigation" data-toggle="buttons">
             <label class="btn btn-sm btn-primary active hvr-sweep-to-right">
-              <input type="radio" name="shuffle-filter" value="all" checked="checked" />Todos
+              <input type="radio" name="shuffle-filter" value="all" checked="checked" />{{.Params.all}}
             </label>
             {{ $categories := slice }}
             {{ range .Data.Pages }}
@@ -365,7 +365,7 @@
     <div class="row">
       <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ .Title | markdownify}}</h1>
-        <form method="POST" action="{{ .Params.form_action }}" data-toggle="validator">
+        <form name="contact" method="POST" action="https://formsubmit.co/kmilocollado@gmail.com" data-toggle="validator" data-netlify="true">
           <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
             <div class="form-group col-lg-6">
               <input class="form-control" type="text" name="username" id="username" placeholder="{{.Params.name}}"

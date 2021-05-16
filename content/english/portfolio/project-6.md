@@ -1,6 +1,8 @@
 ---
 title: "SEICCA"
 date: 2020-07-17T12:14:34+06:00
+fecha: "Date"
+empresa: "Business"
 image: "images/portfolio/seicca.png"
 categories: ["AUGE CRM"]
 description: "This is meta description."

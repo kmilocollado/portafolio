@@ -9,7 +9,7 @@
         <div class="filtering wow fadeInUp" data-wow-duration="1.5s">
           <div class="btn-group btn-group-toggle portfolio-navigation" data-toggle="buttons">
             <label class="btn btn-sm btn-primary active hvr-sweep-to-right">
-              <input type="radio" name="shuffle-filter" value="all" checked="checked" />Todos
+              <input type="radio" name="shuffle-filter" value="all" checked="checked" />{{ .Params.all }}
             </label>
             {{ $categories := slice }}
             {{ range .Data.Pages }}

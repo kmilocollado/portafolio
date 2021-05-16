@@ -1,6 +1,8 @@
 ---
 title: "SafeWheel"
 date: 2020-02-07T12:14:34+06:00
+fecha: "Date"
+empresa: "Business"
 image: "images/portfolio/safewheel.png"
 categories: ["AUGE CRM"]
 description: "This is meta description."

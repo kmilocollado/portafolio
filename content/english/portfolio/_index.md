@@ -1,6 +1,7 @@
 ---
 title: "Portfolio"
 description: "Mi portafolio Kmilo Collado"
+all: "All"
 draft: false
 
 

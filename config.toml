@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://kmilocollado.com"
+baseURL = "https://kmilo_collado.gitlab.io/portafolio/"
 title = "Kmilo Collado"
 defaultContentLanguage = "es"
 languageCode = "es"
@@ -8,6 +8,7 @@ theme = "somrat"
 paginate = "5"
 # post excerpt
 summaryLength = "10"
+
 
 # disable language
 disableLanguages = [] # disable language from here

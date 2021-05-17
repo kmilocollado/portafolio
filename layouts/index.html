@@ -61,9 +61,9 @@
               {{ with .Params.last_name }}<div class="last-name">{{ . }}</div>{{ end }}
             </div>
             <div class="fulscreen-nav">
-              <ul class="list-inline fullscreen-nav-holder">
+              <ul class="list-inline fullscreen-nav-holder ">
                 {{ range site.Menus.main }}
-                <li><a class="text-uppercase"
+                <li class="hvr-underline-from-left"><a class="text-uppercase"
                     href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
                 </li>
                 {{ end }}
@@ -164,7 +164,7 @@
             {{ end }}
             <ul class="mobile-menu-icons list-inline">
               {{ range site.Params.social }}
-              <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+              <li><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
               {{ end }}
             </ul>
           </nav>

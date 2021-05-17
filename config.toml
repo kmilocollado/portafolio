@@ -45,6 +45,8 @@ link = "plugins/owl-carousel/owl.carousel.min.css"
 link = "plugins/owl-carousel/owl.theme.default.min.css"
 [[params.plugins.css]]
 link = "plugins/text-animation/text-animation.css"
+[[params.plugins.css]]
+link = "/assets/css/style.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -71,6 +73,7 @@ favicon = "images/favicon.png"
 logo_light = "images/logo-light.png"
 logo_dark = "images/logo-dark.png"
 logo_width = "150px"
+css = ["css/style.css"]
 # Meta data
 description = "Mi portafolio Kmilo Collado"
 author = "kmilo"

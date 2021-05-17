@@ -454,7 +454,7 @@ input:checked+label span:last-child {
 }
 
 .first-name {
-  font-size: 50px;
+  font-size: 50px !important;
   font-weight: 400;
   padding-bottom: 20px;
 }
@@ -514,6 +514,18 @@ input:checked+label span:last-child {
   text-decoration: none;
 }
 
+.fullscreen-nav-holder .hvr-underline-from-left::before {
+  background: #5C9990 !important;
+  bottom: -0.5px;
+}
+
+.fullscreen-nav-holder .hvr-underline-from-left:hover:before,
+.fullscreen-nav-holder .hvr-underline-from-left:focus:before,
+.fullscreen-nav-holder .hvr-underline-from-left:active:before,
+.fullscreen-nav-holder .hvr-underline-from-left.active:before {
+  right: 0;
+}
+
 .full-nav-icon-holder {
   width: 100%;
   display: -webkit-box;
@@ -541,6 +553,7 @@ input:checked+label span:last-child {
   margin-top: 15px;
 }
 
+
 .full-nav-icons div {
   display: inline-block;
 }
@@ -548,7 +561,7 @@ input:checked+label span:last-child {
 .full-nav-icons a,
 .to-top a {
   text-decoration: none;
-  color: #313131;
+  color: #5C9990;
   font-size: 17px;
 }
 
@@ -560,9 +573,11 @@ input:checked+label span:last-child {
 .to-top .fab {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #fff;
+  background: rgba(10, 10, 10, 0.267);
   padding: 7px;
+
 }
+
 
 .full-nav-icons .fab:hover {
   -webkit-transform: translateY(5px);
@@ -667,7 +682,7 @@ input:checked+label span:last-child {
 }
 
 .desktop-menu .hvr-underline-from-left.dark:before {
-  background: #6f6f6f;
+  background: #5C9990;
 }
 
 .desktop-menu {
@@ -696,6 +711,7 @@ input:checked+label span:last-child {
 .menu-item-transparent.menu-item a {
   color: #6f6f6f;
 }
+
 
 /* ========= Mobile Menu ======= */
 
@@ -756,6 +772,11 @@ input:checked+label span:last-child {
   transition: all 0.7s;
 }
 
+.mobile-menu-icons li a{
+  color: #5C9990;
+  background: rgba(10, 10, 10, 0.267);
+}
+
 .mobile-menu-icons .fa:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
@@ -798,6 +819,7 @@ input:checked+label span:last-child {
   opacity: 0;
   top: 50%;
 }
+
 
 .menu-link.active span:first-child {
   opacity: 1;

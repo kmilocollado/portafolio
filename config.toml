@@ -76,7 +76,7 @@ logo_width = "150px"
 css = ["css/style.css"]
 # Meta data
 description = "Mi portafolio Kmilo Collado"
-author = "kmilo"
+author = "Kmilo"
 whatsapp_num = "+5352391362"
 cv = "docs/CV.pdf"
 

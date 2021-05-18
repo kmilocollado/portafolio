@@ -2443,17 +2443,10 @@ textarea.form-control::-webkit-input-placeholder,
 
 /* Email */
 
-.email .deg-img {
-  background-color: #2121217e;
-  height: 645px;
-
-}
 .email {
   background-size: cover;
   background-repeat: no-repeat;
-  display: block;
   padding: 0;
 }
-
 
 

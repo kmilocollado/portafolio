@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ with .GetPage "email" }}
+
+
+        <div class="container-fluid email" style="background-image: url('{{ .Params.bg_image | absURL }}')">     
+            <div class="deg-img">
+            </div>
+        </div>
+
+{{ end }}
+{{ end }}
+

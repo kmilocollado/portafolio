@@ -12,6 +12,23 @@ experience:
   enable : true
   title : "EXPERIENCE"
   experience_list:
+  # experience item loop
+    - name : "FREELANCER"
+      duration : "2020-Act"
+      content : "Creation of Themes for Wordpress"
+      web : "https://sporcks.com/ <br>
+       https://wilier.com/<br>
+       https://riversspencer.com/"
+
+  # experience item loop
+    - name : "AUGE CRM"
+      company : "https://paginasauge.com"
+      duration : "2020-2021"
+      content : "Working with HTML, CSS and Javascript in the HUGO static site builder"
+      web : "https://supertiressilao.com.mx <br>
+       https://centraldellantas.com<br>
+       https://www.seicca.com.mx"
+
        # experience item loop
     - name : "Online Cuba"
       company : "https://onlinecubahosting.com"
@@ -21,14 +38,7 @@ experience:
        https://pedro.onlinecubahosting.com<br>
        https://www.divulgata.com"
       
-    # experience item loop
-    - name : "AUGE CRM"
-      company : "https://paginasauge.com"
-      duration : "2020-2021"
-      content : "Working with HTML, CSS and Javascript in the HUGO static site builder"
-      web : "https://supertiressilao.com.mx <br>
-       https://centraldellantas.com<br>
-       https://www.seicca.com.mx"
+    
 
 ############################### Skill #################################
 skill:

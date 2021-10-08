@@ -1,17 +1,18 @@
 ---
-title: "Pedro Oraá"
-date: 2018-07-12T12:14:34+06:00
+title: "Wilier"
+date: 2021-04-19T12:14:34+06:00
 fecha: "Date"
-empresa: "Business"
-image: "images/portfolio/pedro-oraa.png"
-categories: ["Online Cuba"]
+empresa: "Freelancer"
+image: "images/portfolio/wilier.png"
+categories: ["Freelancer"]
 description: "This is meta description."
 draft: false
 project_info:
+
 - name: "Link Project"
   icon: "fas fa-link" 
-  content: "https://pedro.onlinecubahosting.com"
+  content: "https://wilier.com/"
 
 ---
 
-Site of the renowned Cuban Visual Artist Pedro Oraá
+

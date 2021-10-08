@@ -1,18 +1,18 @@
 ---
-title: "Estudio Raro"
-date: 2018-05-17T12:14:34+06:00
+title: "Sporcks"
+date: 2021-06-01T12:14:34+06:00
 fecha: "Fecha"
-empresa: "Empresa"
-image: "images/portfolio/estudioraro.png"
-categories: ["Online Cuba"]
+empresa: "Freelancer"
+image: "images/portfolio/sporcks.png"
+categories: ["Freelancer"]
 description: "Esta es mi descrpción"
 draft: false
 project_info:
 
 - name: "Link del Proyecto"
   icon: "fas fa-link" 
-  content: "https://estudioraro.com"
+  content: "https://sporcks.com/"
 
 ---
 
-Fotografía conceptual y artística. Video y fotografía publicitaria.Post-producción de fotos y videos
+

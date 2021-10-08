@@ -1,18 +1,17 @@
 ---
-title: "Llanty Par Sfco"
-date: 2020-05-20T12:14:34+06:00
+title: "Pedro Oraá"
+date: 2018-07-12T12:14:34+06:00
 fecha: "Fecha"
 empresa: "Empresa"
-image: "images/portfolio/llantyparsanfco.png"
-categories: ["AUGE CRM"]
+image: "images/portfolio/pedro-oraa.png"
+categories: ["Online Cuba"]
 description: "This is meta description."
 draft: false
 project_info:
-
 - name: "Link del Proyecto"
   icon: "fas fa-link" 
-  content: "https://www.llantyparsanfco.com"
+  content: "https://pedro.onlinecubahosting.com"
 
 ---
 
-Taller de reparación de automóviles Llanty Par San Francisco
+Sitio del reconocido Artista Visual cubano Pedro Oraá

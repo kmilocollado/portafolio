@@ -1,17 +1,18 @@
 ---
-title: "SafeWheel"
-date: 2020-02-07T12:14:34+06:00
+title: "Estudio Raro"
+date: 2018-05-17T12:14:34+06:00
 fecha: "Fecha"
 empresa: "Empresa"
-image: "images/portfolio/safewheel.png"
-categories: ["AUGE CRM"]
-description: "This is meta description."
+image: "images/portfolio/estudioraro.png"
+categories: ["Online Cuba"]
+description: "Esta es mi descrpción"
 draft: false
 project_info:
+
 - name: "Link del Proyecto"
   icon: "fas fa-link" 
-  content: "https://safewheel.com.mx"
+  content: "https://estudioraro.com"
 
 ---
 
-Taller de mecánica SafeWheel
+Fotografía conceptual y artística. Video y fotografía publicitaria.Post-producción de fotos y videos

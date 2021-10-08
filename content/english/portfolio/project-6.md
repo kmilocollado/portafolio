@@ -1,17 +1,17 @@
 ---
-title: "SEICCA"
-date: 2020-07-17T12:14:34+06:00
+title: "Divulgata"
+date: 2019-01-15T12:14:34+06:00
 fecha: "Date"
 empresa: "Business"
-image: "images/portfolio/seicca.png"
-categories: ["AUGE CRM"]
+image: "images/portfolio/divulgata.png"
+categories: ["Online Cuba"]
 description: "This is meta description."
 draft: false
 project_info:
 - name: "Link Project"
   icon: "fas fa-link" 
-  content: "https://www.seicca.com.mx"
+  content: "https://www.divulgata.com"
 
 ---
 
-Comprehensive Consulting and Training Services.
+A translation agency committed to supporting the advancement of the Kingdom of God and rescuing all unreached peoples.

@@ -1,17 +1,18 @@
 ---
-title: "Divulgata"
-date: 2019-01-15T12:14:34+06:00
+title: "River Spencer"
+date: 2021-02-03T12:14:34+06:00
 fecha: "Fecha"
-empresa: "Empresa"
-image: "images/portfolio/divulgata.png"
-categories: ["Online Cuba"]
-description: "This is meta description."
+empresa: "Freelancer"
+image: "images/portfolio/riverspencer.png"
+categories: ["Freelancer"]
+description: "Esta es mi descrpción"
 draft: false
 project_info:
+
 - name: "Link del Proyecto"
   icon: "fas fa-link" 
-  content: "https://www.divulgata.com"
+  content: "https://riversspencer.com/"
 
 ---
 
-Una agencia de traducción comprometida con apoyar el avance del Reino de Dios y rescatar a todos los pueblos no alcanzados.
+

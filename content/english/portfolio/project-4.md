@@ -1,17 +1,18 @@
 ---
-title: "SafeWheel"
-date: 2020-02-07T12:14:34+06:00
+title: "Estudio Raro"
+date: 2018-05-17T12:14:34+06:00
 fecha: "Date"
 empresa: "Business"
-image: "images/portfolio/safewheel.png"
-categories: ["AUGE CRM"]
+image: "images/portfolio/estudioraro.png"
+categories: ["Online Cuba"]
 description: "This is meta description."
 draft: false
 project_info:
+
 - name: "Link Project"
   icon: "fas fa-link" 
-  content: "https://safewheel.com.mx"
+  content: "https://estudioraro.com"
 
 ---
 
-SafeWheel mechanic shop
+Conceptual and artistic photography. Video and advertising photography Post-production of photos and videos

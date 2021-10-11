@@ -87,8 +87,6 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
   
 ############################# social site ########################
 [[params.social]]
-icon = "fab fa-facebook-f"
-link = "https://www.facebook.com/kmilocollado"
 
 [[params.social]]
 icon = "fab fa-twitter"

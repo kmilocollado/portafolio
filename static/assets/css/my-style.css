@@ -2233,6 +2233,14 @@ textarea.form-control::-webkit-input-placeholder,
 /*--------------------------------
   Start Portfolio
 ----------------------------------*/
+@media (max-width: 470px) {
+  .portfolio-navigation label:nth-child(1) {
+    width: 100%;
+    margin: 0 5px 0 0;
+  }
+}
+
+
 /*--------------------------------
   End Portfolio
 ----------------------------------*/

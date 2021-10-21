@@ -11,7 +11,7 @@ project_info:
 
 - name: "Link Project"
   icon: "fas fa-link" 
-  content: "https://sporcks.com/"
+  content: "https://new.sporcks.com/"
 
 ---
 

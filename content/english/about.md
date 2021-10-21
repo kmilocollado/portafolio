@@ -16,8 +16,8 @@ experience:
     - name : "FREELANCER"
       duration : "2020-Act"
       content : "Creation of Themes for Wordpress"
-      web : "https://sporcks.com/ <br>
-       https://wilier.com/<br>
+      web : "https://new.sporcks.com/ <br>
+       https://wiliercr.com/<br>
        https://riversspencer.com/"
 
   # experience item loop

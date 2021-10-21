@@ -3,7 +3,7 @@ title: "Sporcks"
 date: 2021-06-01T12:14:34+06:00
 fecha: "Fecha"
 empresa: "Freelancer"
-image: "images/portfolio/sporcks.png"
+image: "images/portfolio/sporcks.jpg"
 categories: ["Freelancer"]
 description: "Esta es mi descrpción"
 draft: false

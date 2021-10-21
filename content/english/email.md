@@ -3,5 +3,5 @@
 layout: email
 aliases:
  - /email
-bg_image : "images/backgrounds/email-eng.png"
+bg_image : "images/backgrounds/email-eng.jpg"
 ---

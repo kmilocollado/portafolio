@@ -213,7 +213,7 @@
               {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
               {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
               <h4>Websites</h4>
-              {{ with .web }} <span>{{ . | markdownify}}</span> {{ end }}
+              {{ with .web }} <span id="site_web">{{ . | markdownify }}</span> {{ end }}
             </div>
           </li>
           {{ end }}

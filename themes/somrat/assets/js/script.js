@@ -359,3 +359,10 @@
 			Others
 	----------------------------------*/
 }(jQuery));
+
+
+const link = document.querySelectorAll("#site_web a");
+for (let i = 0; i < link.length; i++) {
+	link[i].setAttribute("target", "_blank");
+}
+

@@ -1,20 +1,17 @@
 ---
 title: "BeLocal"
 date: 2022-01-03T12:14:34+06:00
-fecha: "Fecha"
+fecha: "Date"
 empresa: "Freelancer"
-image: "images/portfolio/belocal.png"
+image: "images/portfolio/belocal.jpg"
 categories: ["Freelancer"]
-description: "Esta es mi descrpción"
+description: "This is meta description."
 draft: false
 project_info:
-
-- name: "Link del Proyecto"
+- name: "Link Project"
   icon: "fas fa-link" 
   content: "https://be-local.life/"
 
 ---
-Tienda donde las empresas locales que
-apoyan a la comunidad y quienes viven en ella están lo más conectadas
-posible.
 
+Shop where local businesses support the community and those who live in it are the most connected possible.

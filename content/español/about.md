@@ -16,9 +16,12 @@ experience:
     - name : "FREELANCER"
       duration : "2020-Act"
       content : "Creacion de Themes para Wordpress"
-      web : "https://new.sporcks.com/ <br>
+      web : "https://sporcks.com/ <br>
        https://wiliercr.com/<br>
-       https://riversspencer.com/"
+       https://riversspencer.com/<br>
+       https://be-local.life/<br>
+       https://collisionleaders.com/<br>
+       https://caniva.mx/"
 
     # experience item loop
     - name : "AUGE CRM"

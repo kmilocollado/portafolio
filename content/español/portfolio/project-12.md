@@ -3,7 +3,7 @@ title: "BeLocal"
 date: 2022-01-03T12:14:34+06:00
 fecha: "Fecha"
 empresa: "Freelancer"
-image: "images/portfolio/belocal.png"
+image: "images/portfolio/belocal.jpg"
 categories: ["Freelancer"]
 description: "Esta es mi descrpción"
 draft: false

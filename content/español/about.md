@@ -13,6 +13,11 @@ experience:
   title : "EXPERIENCIA"
   experience_list:
     # experience item loop
+    - name : "Proyecto Independiente"
+      content : "Carta en línea con acceso en QR"
+      web : "https://lacartaenlinea.com/ <br>"
+
+    # experience item loop
     - name : "FREELANCER"
       duration : "2020-Act"
       content : "Creacion de Themes para Wordpress"
@@ -21,7 +26,7 @@ experience:
        https://riversspencer.com/<br>
        https://be-local.life/<br>
        https://collisionleaders.com/<br>
-       https://caniva.mx/"
+       https://caniva.mx/"       
 
     # experience item loop
     - name : "AUGE CRM"

@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://kmilo_collado.gitlab.io/portafolio/"
+baseURL = "https://kmilocollado.github.io/portafolio/"
 title = "Kmilo Collado"
 defaultContentLanguage = "es"
 languageCode = "es"

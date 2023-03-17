@@ -106,7 +106,7 @@ import {
       points: [
         "https://be-local.life/", 
         "https://www.shiru.com/",
-        "https://www.mogulproductions.com/"
+        "https://www.cochesbbb.com/"
       ],
     },
     {

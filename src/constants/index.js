@@ -110,18 +110,6 @@ import {
       ],
     },
     {
-      title: "Nativo",
-      company_name: "Nativo",
-      icon: nativo,
-      iconBg: "#383E56",
-      date: "Abril 2021 - Septiembre 2021",
-      points: [
-        "https://muralesundanet.ovh/",
-        "https://collisionleaders.com/",
-        "https://www.adeslasdental.es/"
-      ],
-    },
-    {
       title: "Infromage Studios",
       company_name: "Creación de Temas y Plugins para Wordpress",
       icon: informagestudios,
@@ -129,8 +117,8 @@ import {
       date: "Enero 2022 - Presente",
       points: [
         "https://sporcks.com/",
-        "https://riversspencer.com/",
-        "https://wiliercr.com/",
+        "https://www.adeslasdental.es/",
+        "https://muralesundanet.ovh/"
       ],
     },
   ];

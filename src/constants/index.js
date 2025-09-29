@@ -9,11 +9,13 @@ import {
     reactjs,
     php,
     wordpress,
+    shopify,
     git,
     nativo,
     auge,
     jydsolutions,
     informagestudios,
+    freelancer,
     sporcks,
     wilier,
     riverspencer,
@@ -75,8 +77,12 @@ import {
       icon: php,
     },
     {
-      name: "Wordpress",
+      name: "WordPress",
       icon: wordpress,
+    },
+    {
+      name: "Shopify",
+      icon: shopify,
     },
     {
       name: "git",
@@ -114,11 +120,21 @@ import {
       company_name: "Creación de Temas y Plugins para Wordpress",
       icon: informagestudios,
       iconBg: "#E6DEDD",
-      date: "Enero 2022 - Presente",
+      date: "Enero 2022 - 2023",
       points: [
         "https://sporcks.com/",
         "https://www.adeslasdental.es/",
         "https://muralesundanet.ovh/"
+      ],
+    },
+    {
+      title: "Freelance",
+      company_name: "Desarrollo de sitios web con Wordpress y Shopify",
+      icon: freelancer,
+      iconBg: "#E6DEDD",
+      date: "2023 - Actualidad",
+      points: [
+        "Por motivos de privacidad y acuerdos de confidencialidad no puedo mostrar los nombres de las empresas ni los sitios web."
       ],
     },
   ];

@@ -14,13 +14,14 @@ import javascript from "./tech/javascript.png";
 import wordpress from "./tech/wordpress.png";
 import reactjs from "./tech/reactjs.png";
 import php from "./tech/php.png";
+import shopify from "./tech/shopify.png";
 
 
 import auge from "./company/auge.png";
 import jydsolutions from "./company/jyd-solutions.png";
 import nativo from "./company/nativo.png";
 import informagestudios from "./company/informage-studios.png";
-
+import freelancer from "./company/freelancer.png";
 import sporcks from "./sporcks.png";
 import wilier from "./wilier.png";
 import riverspencer from "./riverspencer.png";
@@ -39,12 +40,14 @@ export {
   html,
   javascript,
   wordpress,
+  shopify,
   reactjs,
   php,
   auge,
   jydsolutions,
   nativo,
   informagestudios,
+  freelancer,
   sporcks,
   wilier,
   riverspencer,

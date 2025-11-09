@@ -14,7 +14,7 @@ import javascript from "./tech/javascript.png";
 import wordpress from "./tech/wordpress.webp";
 import reactjs from "./tech/reactjs.png";
 import php from "./tech/php.png";
-import shopify from "./tech/shopify.png";
+import shopify from "./tech/shopify.webp";
 
 
 import auge from "./company/auge.png";

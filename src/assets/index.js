@@ -11,7 +11,7 @@ import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import wordpress from "./tech/wordpress.png";
+import wordpress from "./tech/wordpress.webp";
 import reactjs from "./tech/reactjs.png";
 import php from "./tech/php.png";
 import shopify from "./tech/shopify.png";
@@ -22,9 +22,9 @@ import jydsolutions from "./company/jyd-solutions.png";
 import nativo from "./company/nativo.png";
 import informagestudios from "./company/informage-studios.png";
 import freelancer from "./company/freelancer.png";
-import sporcks from "./sporcks.png";
-import wilier from "./wilier.png";
-import riverspencer from "./riverspencer.png";
+import sporcks from "./sporcks.webp";
+import wilier from "./wilier.webp";
+import riverspencer from "./riverspencer.webp";
 
 export {
   logo,

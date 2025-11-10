@@ -1,2 +1,0 @@
-﻿# Mi portafolio
-<img width="1453" height="797" alt="Screenshot 2025-11-09 at 3 26 30 PM" src="https://github.com/user-attachments/assets/875017aa-73d2-4e96-8ab0-d002b17a84fb" />

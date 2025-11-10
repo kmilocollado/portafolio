@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // GitHub Pages subpath (matches package.json homepage)
-  base: "/portafolio/",
+  base: "/",
   build: {
     chunkSizeWarningLimit: 1000,
     cssCodeSplit: true,

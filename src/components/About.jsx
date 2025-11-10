@@ -51,8 +51,8 @@ const About = () => {
         max-w-3xl leading-[30px]'
       >
          Escribir código es mi pasión. Estoy aquí para ayudarte a diseñar tu página web. 
-         No importa cuán difícil sea su sitio, siempre encontraré una manera fácil para satifacer tus necesidades. 
-         Mantente conectado conmigo……..😊
+         No importa cuán difícil sea tu sitio, siempre encontraré una manera sencilla para satisfacer tus necesidades. 
+         ¡Mantente conectado conmigo!😊
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
